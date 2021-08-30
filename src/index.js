@@ -1,12 +1,14 @@
 function eval() {
-    // Do not use eval!!!
-    return;
+	// Do not use eval!!!
+	return;
 }
 
 function expressionCalculator(expr) {
-    // write your solution here
+	let openBracket = 0,
+		closeBracket = 0,
+		string = expr.split("");
 }
 
 module.exports = {
-    expressionCalculator
+	expressionCalculator
 }
